@@ -2,7 +2,7 @@ version: '2'
 
 services:
   web:
-    image: nginx:1.15.8
+    image: nginx
     ports:
       - "8080:80"
     volumes:
