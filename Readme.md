@@ -57,7 +57,7 @@
 
 - После чего собираем наш образ командой ```docker build -t staybox/myimages:nginx_v1 .```
 
-- Далее можем запустить наш контейнер командой ```docker run -d -p 5555:80 staybox/myimages:nginx_v1```
+- Далее можем запустить наш контейнер командой ```docker run -d -p 1234:80 staybox/myimages:nginx_v1```
 
 - Видим наш образы и наши контейнеры:
 ```
