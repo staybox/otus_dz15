@@ -25,6 +25,12 @@
 
 Данный алгоритм установки взять с официального сайта Docker.
 
+#### Установка Docker-compose
+
+- ```curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose```
+- ```chmod +x /usr/local/bin/docker-compose```
+- ```docker-compose --version```
+
 #### Теоретические вопросы
 
 1. Определите разницу между контейнером и образом. Вывод опишите в домашнем задании.
